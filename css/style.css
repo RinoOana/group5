@@ -22,13 +22,7 @@ h1{
 .form-control{
     border-radius: 15px;
 }
-.btn1{
-    border-radius: 15px;
-}
-.btn2{
-    border-radius: 30px;
-    height:60px;
-}
+
 
 form{
     width:80%;
@@ -48,7 +42,10 @@ form{
     height: 100vh;
     object-fit: cover;
 }
+
+
 .btn1{
+    border-radius: 15px;
     background-color:#f7f6fd;
 }
 .btn1:hover{
@@ -60,6 +57,9 @@ form{
     color:#fff;
 }
 .btn2{
+    margin-top:10%;
+    border-radius: 30px;
+    height:60px;
     background-color: #655bd3;
     border: none;
 }
@@ -68,8 +68,36 @@ form{
     background-color: #332e74;
     border: none;
 }
-  @media all and (min-width: 500px) {
-    .{
-      display: flex;
+
+.b-space{
+  margin-right:0;
+  padding-right:0;
+}
+
+/* Result css */
+aside{
+    text-align: left;
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    margin-bottom: 5%;
+}
+
+.bi-star-fill{
+    color: #655bd3;
+}
+
+@media only screen and (max-width: 600px) {
+    .img {
+      display: none;
     }
+
+    .image1{
+        width:100%;
+        margin: 0 auto;
+
+    }
+  
   }
